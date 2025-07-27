@@ -2,19 +2,11 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
-}
-
-.footer_list{
-  display: flex;
-  list-style: none;
-  justify-content: center;
-  gap: 16px;
 }
 
 .mainContent{
   background-color: #1A1B21;
-  width: 360px;
+  width: 320px;
   height: 780px;
   position: relative;
   overflow: hidden;
@@ -27,6 +19,35 @@ footer{
   left: 0;
   /* Optional styling */
   width: 100%;
+  background-color: #161619;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_list{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 0px;
+}
+
+
+.socialBtn{
+  background-color: #918E9B;
+  color: black;
+  border-radius: 6px;
+  border-color: #D1D5DB;
+  text-decoration: none;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .ava{
@@ -36,6 +57,30 @@ footer{
 
 .role{
   color: #F3BF99;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.name{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.about{
+  padding-left: 34px;
+  padding-right: 34px;
+  p{
+    font-size: 10px; 
+  }
+}
+
+.interest{
+  padding-left: 34px;
+  padding-right: 34px;
+  p{
+    font-size: 10px; 
+  }
 }
 
 .list_info_button{
@@ -46,26 +91,36 @@ footer{
 }
 
 .email_button{
-  padding: 10px 16px;
   background-color: #D1D5DB;
   color: black;
   border-radius: 6px;
+  border-color: #D1D5DB;
   text-decoration: none;
   cursor: pointer;
   width: 115px;
   height: 34px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 .linkdin_button{
-  display: inline-block;
-  padding: 10px 16px;
   background-color: #5093E2;
   color: white;
   border-radius: 6px;
+  border-color: #D1D5DB;
   text-decoration: none;
   cursor: pointer;
   width: 115px;
   height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.mr-2{
+  width: 16px;
+  height: 16px;
 }
