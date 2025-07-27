@@ -6,10 +6,10 @@ function Footer(){
             <nav>
                 <ul className="footer_list">
                     <li className="socialBtn">
-                        <a><FaFacebookF style={{ color: 'black'}}/></a>
+                        <a href="https://www.facebook.com/vietanh.R.11"><FaFacebookF style={{ color: 'black'}}/></a>
                     </li>
                     <li className="socialBtn">
-                        <a><FaGithub style={{ color: 'black'}}/></a>
+                        <a href="https://github.com/vietanh0562000"><FaGithub style={{ color: 'black'}}/></a>
                     </li>
                 </ul>
             </nav>

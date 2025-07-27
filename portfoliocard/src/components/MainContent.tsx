@@ -1,23 +1,27 @@
 import { MdEmail } from "react-icons/md";
 import Footer from "./Footer";
 import { FaLinkedin } from "react-icons/fa";
+import avaImage from "../assets/Ava.jpg";
 
 function MainContent(){
     return (
         <main className="mainContent">
             <div>
-                <img 
-                    className="ava" 
-                    src="https://files.worldwildlife.org/wwfcmsprod/images/Polar_Bear_WW225900/story_full_width/82vwzbxa5k_pb_Original_WW225900.jpg" 
-                    alt="Avatar"/>
+                <div className="avaContainer">
+                    <img 
+                        className="ava" 
+                        src={avaImage} 
+                        alt="Avatar"/>
+                </div>
+                
                 <h2 className="name">Viet Anh Dinh</h2>
                 <p className="role">Software Engineer</p>
                 <div className="list_info_button">
-                    <a className="email_button" href="">
+                    <a className="email_button" href="mailto:vitanh562000@gmail.com">
                        <MdEmail className="mr-2" />
                         Email
                     </a>
-                    <a className="linkdin_button" href="">
+                    <a className="linkdin_button" href="https://www.linkedin.com/in/dinhvietanh56">
                         <FaLinkedin />
                         Linkdin
                     </a>
