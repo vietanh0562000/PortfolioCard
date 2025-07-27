@@ -1,0 +1,71 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.footer_list{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 16px;
+}
+
+.mainContent{
+  background-color: #1A1B21;
+  width: 360px;
+  height: 780px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  /* Optional styling */
+  width: 100%;
+}
+
+.ava{
+  width: 100%;
+  height: auto;
+}
+
+.role{
+  color: #F3BF99;
+}
+
+.list_info_button{
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.email_button{
+  padding: 10px 16px;
+  background-color: #D1D5DB;
+  color: black;
+  border-radius: 6px;
+  text-decoration: none;
+  cursor: pointer;
+  width: 115px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+}
+
+.linkdin_button{
+  display: inline-block;
+  padding: 10px 16px;
+  background-color: #5093E2;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  cursor: pointer;
+  width: 115px;
+  height: 34px;
+}
